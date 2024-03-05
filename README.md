@@ -57,3 +57,29 @@ negative texts, outperforming TextBlob in this aspect.
 underscores its adaptability and strength in handling a variety of textual contexts.
 The tool's nuanced understanding of informal, colloquial language likely
 contributes to its more effective identification of negative sentiments.***
+
+**Comparision and Visualization of these two toolsperformance**
+
+***ANALYSIS-***
+The comparative analysis of TextBlob and VADER showcases distinct strengths and
+weaknesses in sentiment analysis tasks. TextBlob excelled in identifying positive
+sentiments with a remarkable accuracy of 97.10%, but its performance dropped
+significantly when analyzing negative sentiments, with an accuracy of only 22.90%. In
+contrast, VADER presented a more balanced approach, achieving 84.30% accuracy for
+positive sentiments and a notably higher 43.50% accuracy for negative sentiments.
+
+***INSIGHTS-***
+TextBlob's high accuracy in positive sentiment detection makes it a suitable choice for
+applications where the primary goal is to identify positive expressions, such as customer
+satisfaction surveys. VADER's balanced accuracy across both sentiment types, particularly its superior
+performance in detecting negative sentiments, makes it a versatile tool for diverse
+applications, including social media analysis and market research.
+The choice between TextBlob and VADER should be influenced by the specific
+requirements of the sentiment analysis task and the nature of the text data.
+
+**Conclusion**
+In conclusion, while TextBlob shows exceptional ability in identifying positive sentiments,
+VADER's strength lies in its balanced performance and nuanced understanding of both
+positive and negative sentiments. The selection of the appropriate tool thus depends on
+the specific needs and nature of the sentiment analysis task at hand.
+
