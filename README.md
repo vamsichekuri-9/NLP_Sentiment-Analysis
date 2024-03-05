@@ -1,2 +1,59 @@
 # NLP_Sentiment-Analysis
- Comparitive Sentiment Analysis using Textblob and Vader
+
+**Project Name: Comparitive Sentiment Analysis using Textblob and Vader**
+
+Using Textblob or Vader (or both) for sentiment analysis.
+There are 1000 positive and 1000 negative processed sentiment analysis text pieces
+in the dataset (unzip using 7-zip)
+
+sentiment analysis texts.7z Download sentiment analysis texts.7z
+
+**Part 1-Sentiment Analysis using TextBlob**
+
+Using Textblob:
+
+TextBlob, a straightforward Python library for processing textual data, was employed to perform sentiment analysis on a dataset comprising 1000 positive and 1000 negative text samples. Utilizing TextBlob's sentiment analysis capabilities, each text was evaluated for polarity. A polarity score greater than 0 indicates a positive sentiment, less than 0 indicates a negative sentiment, and a
+score of 0 signifies neutrality.
+
+Results:
+
+Positive Texts: The analysis revealed an impressive accuracy of 97.10% in correctly
+identifying positive sentiments, showcasing TextBlob's strength in recognizing clear,
+positive expressions.
+
+Negative Texts: In contrast, the accuracy for negative texts was significantly lower, at
+22.90%. This suggests challenges in accurately detecting negative sentiments or
+nuances.
+
+***Observations: TextBlob's high performance in positive sentiment detection highlights its
+effectiveness in scenarios with straightforward, clear-cut sentiments. The marked
+discrepancy in its ability to handle negative sentiments points to potential
+limitations in dealing with complex or subtly expressed emotions.***
+
+**Part 2- Sentiment Analysis using Vader**
+
+Using VADER:
+
+VADER, a lexicon and rule-based sent
+iment analysis tool, is tailored for sentiments expressed i
+n informal text, like social media. It was used to analyze
+the same dataset of 1000 positive and 1000 negative texts.
+VADER's sentiment analysis provides a compound score to sum
+marize the sentiment of the text. Positive scores indicate
+positive sentiment, negative scores for negative sentiment,
+and scores around 0 for neutrality. Surprisingly VADER take
+s lot more time to execute and get results when compared th
+e time lapse with text blob.
+
+Results:
+
+Positive Texts: VADER achieved an 84.30% accuracy in identifying positive sentiments,
+demonstrating its capability but with a slightly lower proficiency compared to TextBlob.
+
+Negative Texts: More notably, it showed a significantly higher accuracy of 43.50% for
+negative texts, outperforming TextBlob in this aspect. 
+
+***Observations: VADER's balanced performance in analyzing both positive and negative sentiments
+underscores its adaptability and strength in handling a variety of textual contexts.
+The tool's nuanced understanding of informal, colloquial language likely
+contributes to its more effective identification of negative sentiments.***
