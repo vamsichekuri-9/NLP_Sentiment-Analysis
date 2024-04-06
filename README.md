@@ -1,6 +1,6 @@
 # NLP_Sentiment-Analysis
 
-**Project Name: Comparitive Sentiment Analysis using Textblob and Vader**
+# Comparitive Sentiment Analysis using Textblob and Vader**
 
 Using Textblob or Vader (or both) for sentiment analysis.
 There are 1000 positive and 1000 negative processed sentiment analysis text pieces
